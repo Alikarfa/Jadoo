@@ -1,0 +1,610 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+.containeur {
+    margin: 0 auto;
+    width: 90%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 25px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header .containeur {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-jadoo {
+    width: 40px;
+    margin-right: 20px;
+}
+
+.logo-texte {
+    width: 100px;
+}
+
+.texte-couleur-saumon {
+    color: #DF6951;
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+h3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: volkhov-bold, Helvetica, sans-serif;
+    font-size: 84px;
+    line-height: 89px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+figcaption {
+    font-family: poppins-regular, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #5e6282;
+}
+
+#section1 {
+    background-color: gray;
+    background-image: url(../img/illustration_principale.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#section1 h3 {
+    margin: 0;
+}
+
+#section1 p {
+    color: #BFC0CD;
+    font-family: oppins-regular;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.btnContaineur {
+    margin-top: 60px;
+    padding-bottom: 100px;
+}
+
+.bouton {
+    background-color: #F1A501;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 20px 35px 5px rgb(241 165 1 / 15%);
+    color: white;
+}
+
+#section2 strong {
+    font-family: opensans-regular, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#section2 h4 {
+    font-family: poppins-regular, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 50px;
+    color: #5e6282;
+    font-weight: 600;
+}
+
+#section2 h2 {
+    font-family: volkhov-bold, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+#section2 p {
+    font-family: poppins-regular, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#section2 .btnContaineur {
+    text-align: center;
+}
+
+.plats {
+    display: flex;
+    padding: 0 20px 0 20px;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.plats-menu {
+    text-align: center;
+    width: 100%;
+}
+
+.plats-menu img {
+    width: 100%;
+    ;
+}
+
+.plats-menu figure {
+    box-shadow: 0px 0px 5px #00000024;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.plats-menu figure figcaption {
+    padding: 15px;
+}
+
+#section3 {
+    background-color: gray;
+    background-image: url(../img/illustration_chef.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.video {
+    position: relative;
+}
+
+.video a img {
+    position: relative;
+    width: 300px;
+    left: 50px;
+    top: 50px;
+    border-radius: 25px;
+}
+
+.btn-video {
+    position: absolute;
+    left: 165px;
+    top: 20px;
+    padding-top: 75px;
+}
+
+.btn-video img {
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+/* #section3 h1 {
+    font-family: volkhov-bold, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 84px;
+    color: #FFFFFF;
+} */
+
+#section3 p {
+    font-family: poppins-regular, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+#section3 .img3-4 {
+    margin-bottom: -320px;
+    width: 60%;
+}
+
+#section3 .img3-4 img {
+    float: left;
+    width: 50%;
+}
+
+.clearFX:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+#section4 {
+    background-color: gray;
+    background-image: url(../img/illustration_commander.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 320px;
+}
+
+#section4 h4 {
+    font-family: poppins-regular, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #5E6282;
+    padding-top: 50px;
+    margin-top: 0px;
+}
+
+#section4 h2 {
+    font-family: volkhov-bold, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#section4 h2 .rouge {
+    color: #DF6951;
+}
+
+#section4 h2 {
+    color: #14183e;
+}
+
+#section4 p {
+    font-family: poppins-regular, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #3E3F43;
+}
+
+#section4 a {
+    font-family: poppins-regular, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+#section4 figure {
+    display: flex;
+    margin-left: 0px
+}
+
+#section4 figure figcaption {
+    padding-left: 20px;
+}
+
+.logo {
+    width: 45px;
+}
+
+.bouton3 {
+    background-color: #007AFF;
+    padding: 20px 30px 20px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    color: white;
+}
+
+a.bouton3:before {
+    content: "\2713";
+    padding-right: 5px;
+}
+
+.background-form {
+    background-image: url("../img/illustration_formulaire.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+#section5 h1 {
+    color: #14183e;
+    font-size: 50px;
+    text-align: center;
+}
+
+#section5 h4 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.section5 h3 {
+    width: 231;
+    height: 30;
+    left: 275;
+    top: 5092;
+    color: black;
+}
+
+#section5 .conteneur-form {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 1px #00000029;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+#section5 .btnContaineur {
+    text-align: center;
+}
+
+input {
+    border: none grey;
+    border-bottom: 1px solid #e2e4e5;
+}
+
+.formulaire-gauche {
+    width: 100%;
+    padding: 30px;
+}
+
+.premier-chemps {
+    display: flex;
+    padding-top: 50px;
+}
+
+.premier-chemps>div {
+    width: 100%;
+}
+
+.formulaire-gauche input,
+.formulaire-gauche textarea {
+    width: 100%;
+}
+
+.formulaire-gauche form>div {
+    padding-bottom: 50px;
+}
+
+.conteneur-form label {
+    width: 100%;
+    display: block;
+}
+
+.logo-apple,
+.logo-google {
+    background-color: #080809;
+    width: 100px;
+    border-radius: 17px;
+    padding: 10px;
+}
+
+.uber-eats img {
+    height: 30px;
+}
+
+.footercontenu {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 50px;
+}
+
+footer .lien a {
+    text-decoration: none;
+    color: #5e6282;
+    padding-bottom: 5px;
+    display: block;
+}
+
+footer .lien strong {
+    color: #000000;
+    padding-bottom: 10px;
+    display: block;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.logo-apps {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-apps a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.logo-apps img {
+    float: left;
+    margin-top: 1px;
+    padding-right: 4px;
+}
+
+footer .socket,
+.uber-eats {
+    text-align: center;
+}
+
+footer {
+    padding-top: 15px;
+    background-color: #f3f3f3;
+    margin-top: 50px;
+}
+
+.menu-burger {
+    display: none;
+}
+
+.chef {
+    display: none;
+}
+
+.lien {
+    display: flex;
+    justify-content: center;
+}
+
+.lien>div {
+    padding-left: 20px;
+}
+
+.soulignement {
+    background-image: url(../img/souligne_rose.svg);
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 20px;
+}
+
+#section1 .soulignement {
+    margin-top: -70px;
+}
+
+#section3 .soulignement {
+    position: absolute;
+    margin-top: 140px;
+    z-index: 1;
+}
+
+#section3 h1 {
+    position: relative;
+    z-index: 2;
+}
+
+article.plats-menu.dernier-plats:before {
+    content: "";
+    background: url(../img/decoration_filet.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -20px;
+    width: 100px;
+    height: 255px;
+    top: 100px;
+    z-index: -1;
+}
+
+.deco-1 {
+    background-image: url(../img/decor_1.svg);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    background-repeat: no-repeat;
+}
+
+.dernier-plats {
+    position: relative;
+}
+
+@media screen and (max-width:700px) {
+    .plats {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .menu-screen {
+        display: none;
+    }
+    .menu-burger {
+        display: block;
+    }
+    #section1 {
+        text-align: center;
+    }
+    #section3 h1,
+    #section3 p {
+        display: none;
+    }
+    .chef {
+        display: block;
+    }
+    .chef img {
+        width: 100%;
+    }
+    #section3 {
+        background: none;
+    }
+    .video a img {
+        top: 0;
+        left: 0;
+        width: 100%;
+        border-radius: 0px;
+    }
+    .video {
+        top: 5px;
+    }
+    #section3 .containeur {
+        width: 100%;
+    }
+    #section3 .img3-4 img {
+        width: 100%;
+    }
+    #section3 .img3-4 {
+        margin: 0;
+        width: 100%;
+        position: relative;
+        top: -5px;
+    }
+    .btn-video {
+        left: 210px;
+        top: 15px;
+    }
+    #section4 {
+        padding: 0;
+    }
+    #section4 h4,
+    #section4 h2 {
+        text-align: center;
+    }
+    .btnContaineur {
+        text-align: center;
+    }
+    #section4 {
+        background: none;
+    }
+    .background-form {
+        display: none;
+    }
+    .premier-chemps .nom {
+        padding-bottom: 50px;
+    }
+    .premier-chemps {
+        display: block;
+    }
+    #section5 .conteneur-form {
+        box-shadow: none;
+    }
+    .footercontenu {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .footercontenu>div {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .soulignement {
+        margin-left: 100px;
+    }
+    #section3 .soulignement {
+        display: none;
+    }
+    article.plats-menu.dernier-plats:before {
+        display: none;
+    }
+    .deco-1 {
+        display: none;
+    }
+}
+
+@media screen and (oriantation: landscape) {}
